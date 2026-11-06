@@ -8,7 +8,7 @@ Open `index.html` in a browser, or serve the folder with any static file server.
 
 ## Course outline
 
-The interactive guide now has 21 slides (about 55 minutes): OSI layers, TCP/IP mapping and encapsulation, IPv4/IPv6 and CIDR, routing/ARP/NAT, DNS, HTTP/TLS, firewalls/VPNs, load balancers/proxies/CDNs, TCP/UDP, Docker, Kubernetes Services and policies, observability, and a practical troubleshooting exercise.
+The interactive guide now has 22 slides (about 60 minutes): OSI layers, TCP/IP mapping and encapsulation, IPv4/IPv6 and CIDR, routing/ARP/NAT, DNS recursion, TCP handshakes/flow and congestion control, HTTP/TLS, a browser-to-Pod request walkthrough, firewalls/VPNs, load balancers/proxies/CDNs, TCP/UDP, Docker, Kubernetes Services and policies, observability, and a practical troubleshooting exercise.
 
 ## Publish with GitHub Pages
 
