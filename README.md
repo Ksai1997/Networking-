@@ -8,7 +8,7 @@ Open `index.html` in a browser, or serve the folder with any static file server.
 
 ## Course outline
 
-The interactive guide now has 23 slides (about 65 minutes): OSI layers, TCP/IP mapping and encapsulation, IPv4/IPv6 and CIDR, routing/ARP/NAT, DNS recursion, TCP handshakes/flow and congestion control, HTTP/TLS, a browser-to-Pod request walkthrough, firewalls/VPNs, load balancers/proxies/CDNs, TCP/UDP, Docker, Kubernetes Services and policies, observability, a practical troubleshooting exercise, and direct links to all 11 original A-to-Z chapter notes.
+The interactive guide now has 23 slides (about 65 minutes): OSI layers, TCP/IP mapping and encapsulation, IPv4/IPv6 and CIDR, routing/ARP/NAT, DNS recursion, TCP handshakes/flow and congestion control, HTTP/TLS, a browser-to-Pod request walkthrough, firewalls/VPNs, load balancers/proxies/CDNs, TCP/UDP, Docker, Kubernetes Services and policies, observability, a practical troubleshooting exercise, and an in-site reader for all 11 original A-to-Z chapters.
 
 ## Publish with GitHub Pages
 
@@ -22,7 +22,7 @@ GitHub Pages offers free static hosting for public repositories. If your trainin
 
 ## Content sources
 
-- [A to Z of Networking for DevOps](https://github.com/iam-veeramalla/a-to-z-of-networking/tree/main) — the requested open source learning path covering IP addressing, TCP/IP and OSI, DNS, HTTP/HTTPS, load balancing, firewalls, VPNs/tunneling, proxies, CDNs, Docker, and Kubernetes networking. This slide deck summarizes and expands those topic areas in original wording; refer to the repository for its lessons and examples.
+- [A to Z of Networking for DevOps](https://github.com/iam-veeramalla/a-to-z-of-networking/tree/main) — the requested open source learning path. The Source Chapters slide loads the original Markdown lesson text from the repository and renders it inside the training site, preserving its wording, examples, commands, and attribution. Internet access is required to load those chapters. The repository is MIT licensed.
 - [Kubernetes Services, Load Balancing, and Networking](https://kubernetes.io/docs/concepts/services-networking/)
 - [Kubernetes Cluster Networking](https://kubernetes.io/docs/concepts/cluster-administration/networking/)
 - [Container Network Interface](https://github.com/containernetworking/cni)
