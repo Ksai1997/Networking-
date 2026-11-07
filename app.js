@@ -48,6 +48,26 @@ slides.splice(3, 0, ...foundationSlides);
 slides.splice(1, 7);
 const sourceChaptersIndex = slides.findIndex(slide => slide.section.endsWith('SOURCE CHAPTERS'));
 if (sourceChaptersIndex > 1) slides.splice(1, 0, slides.splice(sourceChaptersIndex, 1)[0]);
+const courseOrder = [
+  'Networking in DevOps',
+  'Read the complete A-to-Z lessons',
+  'Addressing and naming',
+  'TCP, UDP and TLS',
+  'HTTP, HTTPS and TLS',
+  'Load balancers, proxies and CDNs',
+  'Firewalls, security groups and VPNs',
+  'Containers need a network contract',
+  'Kubernetes networking in four paths',
+  'Expose services deliberately',
+  'Network policy is an allow list',
+  'Worked example: browser to Kubernetes Pod',
+  'Observe the packet path',
+  'A repeatable troubleshooting loop',
+  'Quick knowledge check',
+  'Keep learning, keep experimenting'
+];
+const slideOrder = new Map(courseOrder.map((title, index) => [title, index]));
+slides.sort((a, b) => (slideOrder.get(a.title) ?? Infinity) - (slideOrder.get(b.title) ?? Infinity));
 slides.forEach((slide, index) => {
   const label = slide.section.replace(/^\d+ · /, '');
   slide.section = `${String(index + 1).padStart(2, '0')} · ${label}`;
