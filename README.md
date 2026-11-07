@@ -8,7 +8,7 @@ Open `index.html` in a browser, or serve the folder with any static file server.
 
 ## Course outline
 
-The interactive guide now has 23 slides (about 65 minutes): OSI layers, TCP/IP mapping and encapsulation, IPv4/IPv6 and CIDR, routing/ARP/NAT, DNS recursion, TCP handshakes/flow and congestion control, HTTP/TLS, a browser-to-Pod request walkthrough, firewalls/VPNs, load balancers/proxies/CDNs, TCP/UDP, Docker, Kubernetes Services and policies, observability, a practical troubleshooting exercise, and an in-site reader for all 11 original A-to-Z chapters.
+The interactive guide now has 16 slides (about 45 minutes). It opens with an orientation, moves the in-site reader for all 11 original A-to-Z chapters to slide 02, then covers HTTP/TLS, network security, traffic intermediaries, a browser-to-Pod request walkthrough, addressing, TCP/UDP, containers, Kubernetes, services and policies, observability, troubleshooting practice, a knowledge check, and next steps. The former slides 02–08 have been removed as requested.
 
 ## Publish with GitHub Pages
 
