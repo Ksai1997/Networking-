@@ -8,7 +8,7 @@ Open `index.html` in a browser, or serve the folder with any static file server.
 
 ## Course outline
 
-The interactive guide now has 16 slides (about 45 minutes). It opens with an orientation, moves the in-site reader for all 11 original A-to-Z chapters to slide 02, then covers HTTP/TLS, network security, traffic intermediaries, a browser-to-Pod request walkthrough, addressing, TCP/UDP, containers, Kubernetes, services and policies, observability, troubleshooting practice, a knowledge check, and next steps. The former slides 02–08 have been removed as requested.
+The interactive guide has 16 slides (about 45 minutes). After the orientation, slide 02 opens the in-site reader for all 11 original A-to-Z chapters. The course then builds from addressing and connections into web protocols, traffic intermediaries and network security; continues through containers, Kubernetes services and policy; and concludes with an end-to-end request walkthrough, observability, troubleshooting practice, a knowledge check and next steps. The former slides 02–08 have been removed.
 
 ## Publish with GitHub Pages
 
